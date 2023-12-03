@@ -405,6 +405,8 @@ nav.navbar.bootsnav .navbar-toggle i{color: skyblue;}
 .about-container .section-header p {
     
     margin-bottom: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 
@@ -414,7 +416,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: skyblue;}
 /*-------------------------------------
         6. Works default color: ff545a
 --------------------------------------*/
-.works{padding: 0 0 90px;}
+.works{padding: 0 0 70px;}
 .works-content {margin-top: 73px;}
 
 
@@ -640,7 +642,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: skyblue;}
     transition: .3s;
 }
 .single-testimonial-box:hover{box-shadow:0 10px 20px skyblue;}
-.slick-current .single-testimonial-box{box-shadow:2px 2px 2px 2px skyblue;}
+.slick-current .single-testimonial-box{box-shadow:2px 2px 5px 2px skyblue;}
 /*testimonial-description*/
 .single-testimonial-box{
     width: 404px;
@@ -723,12 +725,12 @@ nav.navbar.bootsnav .navbar-toggle i{color: skyblue;}
     position:relative;
     display: flex;
     align-items: center;
-    background:url(../../static/images/counter/banner4.jpg)no-repeat fixed;
+    background:url(../../static/images/counter/b8.jpg)no-repeat fixed;
     background-position:center;
     background-size:cover;
     padding:127px 0 120px;
     margin:0px 60px;
-    margin-bottom: 80px;
+    margin-bottom: 140px;
 }
 
 .statistics:before{
