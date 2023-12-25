@@ -1,469 +1,497 @@
 <!doctype html>
 <html class="no-js" lang="en">
 
-    <head>
-        <!-- meta data -->
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<head>
+	<!-- meta data -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-        <!--font-family-->
-		<link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-        
-        <!-- title of site -->
-        <title>Rapid Recruit</title>
+	<!--font-family-->
+	<link
+		href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+		rel="stylesheet">
 
-        <!-- For favicon png -->
-		<link rel="shortcut icon" type="image/icon" href="{{url_for('static', filename='logo/Logo.png')}}"/>
-       
-        <!--font-awesome.min.css-->
-        <link rel="stylesheet" href="{{url_for('static', filename='css/font-awesome.min.css')}}">
-		<script src="https://kit.fontawesome.com/f49a0966dc.js" crossorigin="anonymous"></script>
+	<!-- title of site -->
+	<title>Rapid Recruit</title>
 
-        <!--linear icon css-->
-		<link rel="stylesheet" href="{{url_for('static', filename='css/linearicons.css')}}">
+	<!-- For favicon png -->
+	<link rel="shortcut icon" type="image/icon" href="{{url_for('static', filename='logo/Logo.png')}}" />
 
-		<!--animate.css-->
-        <link rel="stylesheet" href="{{url_for('static', filename='css/animate.css')}}">
+	<!--font-awesome.min.css-->
+	<link rel="stylesheet" href="{{url_for('static', filename='css/font-awesome.min.css')}}">
+	<script src="https://kit.fontawesome.com/f49a0966dc.js" crossorigin="anonymous"></script>
 
-		<!--flaticon.css-->
-        <link rel="stylesheet" href="{{url_for('static', filename='css/flaticon.css')}}">
+	<!--linear icon css-->
+	<link rel="stylesheet" href="{{url_for('static', filename='css/linearicons.css')}}">
 
-		<!--slick.css-->
-        <link rel="stylesheet" href="{{url_for('static', filename='css/slick.css')}}">
-		<link rel="stylesheet" href="{{url_for('static', filename='css/slick-theme.css')}}">
-		
-        <!--bootstrap.min.css-->
-        <link rel="stylesheet" href="{{url_for('static', filename='css/bootstrap.min.css')}}">
-		
-		<!-- bootsnav -->
-		<link rel="stylesheet" href="{{url_for('static', filename='css/bootsnav.css')}}" >	
-        
-        <!--style.css-->
-        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
-        
-        <!--responsive.css-->
-        <link rel="stylesheet" href="{{url_for('static', filename='css/responsive.css')}}">
-        
-        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-		
-        <!--[if lt IE 9]>
+	<!--animate.css-->
+	<link rel="stylesheet" href="{{url_for('static', filename='css/animate.css')}}">
+
+	<!--flaticon.css-->
+	<link rel="stylesheet" href="{{url_for('static', filename='css/flaticon.css')}}">
+
+	<!--slick.css-->
+	<link rel="stylesheet" href="{{url_for('static', filename='css/slick.css')}}">
+	<link rel="stylesheet" href="{{url_for('static', filename='css/slick-theme.css')}}">
+
+	<!--bootstrap.min.css-->
+	<link rel="stylesheet" href="{{url_for('static', filename='css/bootstrap.min.css')}}">
+
+	<!-- bootsnav -->
+	<link rel="stylesheet" href="{{url_for('static', filename='css/bootsnav.css')}}">
+
+	<!--style.css-->
+	<link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+
+	<!--responsive.css-->
+	<link rel="stylesheet" href="{{url_for('static', filename='css/responsive.css')}}">
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+
+	<!--[if lt IE 9]>
 			<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
 
-    </head>
-	
-	<body>
-		<!--[if lte IE 9]>
+</head>
+
+<body>
+	<!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
-		
-		<!--header-top start -->
-		<header id="header-top" class="header-top">
-			
-					
-		</header><!--/.header-top-->
-		<!--header-top end -->
 
-		<!-- top-area Start -->
-		<section class="top-area">
-			<div class="header-area">
-				<!-- Start Navigation -->
-			    <nav class="navbar navbar-default bootsnav  navbar-sticky navbar-scrollspy"  data-minus-value-desktop="70" data-minus-value-mobile="55" data-speed="1000">
+	<!--header-top start -->
+	<header id="header-top" class="header-top">
 
-			        <div class="container">
 
-			            <!-- Start Header Navigation -->
-			            <div class="navbar-header">
-			                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
-			                    <i class="fa fa-bars"></i>
-			                </button>
-			                <!-- <a class="navbar-brand" href="#"><img src="{{url_for('static', filename='logo/RRlogo.jpg')}}" alt="#" /></a> -->
-							<img src="{{url_for('static', filename='logo/logoT.png')}}" alt="NoPreview" />
+	</header><!--/.header-top-->
+	<!--header-top end -->
 
-			            </div><!--/.navbar-header-->
-			            <!-- End Header Navigation -->
+	<!-- top-area Start -->
 
-			            <!-- Collect the nav links, forms, and other content for toggling -->
-			            <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
-			                <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
-			                    <li class=" scroll active"><a href="#home">Home</a></li>
-			                    <li class="scroll"><a href="#works">Work</a></li>
-								<li class="scroll"><a href="#statistics">About</a></li>
-			                    <li class="scroll"><a href="#reviews">client</a></li>
-			                    
-			                    
-			                    <li class="scroll"><a href="#footer">Contact</a></li>
-			                </ul><!--/.nav -->
-			            </div><!-- /.navbar-collapse -->
-			        </div><!--/.container-->
-			    </nav><!--/nav-->
-			    <!-- End Navigation -->
-			</div><!--/.header-area-->
-		    <div class="clearfix"></div>
+	<!-- top-area End -->
 
-		</section><!-- /.top-area-->
-		<!-- top-area End -->
 
-		<!--welcome-hero start -->
-		<section id="home" class="welcome-hero">
-			
-			<div class="container">
-				<div class="welcome-hero-txt">
-					<h2>Rapid <span style="color: skyblue;">Recruits</span> </h2>
-					<p>
-						Best Known for Consultency Services 
-					</p>
-					<p>
-						Vision to Empowering clients to face & solve the most pressing & intricate people challenges faced by them today while ensuring increased productivity by compliant ways of working.
-					</p>
-					<p>
-						Mission is to be the most trusted and sought after firm for end-to-end HR services providing our clients a one-stop solution for all their HR needs. We constantly strives to bring in new technologies & service offerings to the HR domain to be able to provide the best experience for its clients and to ensure high level of satisfaction, efficiency as well as productivity.
-					</p>
-					
-				</div>
-				
+	<!--welcome-hero start -->
+	<section id="home" class="welcome-hero">
+
+		<div class="topmenu">
+			<section class="top-area">
+				<div class="header-area">
+					<!-- Start Navigation -->
+					<nav class="navbar navbar-default bootsnav  navbar-sticky navbar-scrollspy"
+						data-minus-value-desktop="70" data-minus-value-mobile="55" data-speed="1000">
+
+						<div class="container">
+
+							<!-- Start Header Navigation -->
+							<div class="navbar-header">
+								<button type="button" class="navbar-toggle" data-toggle="collapse"
+									data-target="#navbar-menu">
+									<i class="fa fa-bars"></i>
+								</button>
+								<!-- <a class="navbar-brand" href="#"><img src="{{url_for('static', filename='logo/RRlogo.jpg')}}" alt="#" /></a> -->
+								<img src="{{url_for('static', filename='logo/logoT.png')}}" alt="NoPreview" />
+
+							</div><!--/.navbar-header-->
+							<!-- End Header Navigation -->
+
+							<!-- Collect the nav links, forms, and other content for toggling -->
+							<div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
+								<ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+									<li class=" scroll active"><a href="#home">Home</a></li>
+									<li class="scroll"><a href="#works">Work</a></li>
+									<li class="scroll"><a href="#statistics">About</a></li>
+									<li class="scroll"><a href="#reviews">client</a></li>
+
+
+									<li class="scroll"><a href="#footer">Contact</a></li>
+								</ul><!--/.nav -->
+							</div><!-- /.navbar-collapse -->
+						</div><!--/.container-->
+					</nav><!--/nav-->
+					<!-- End Navigation -->
+				</div><!--/.header-area-->
+				<div class="clearfix"></div>
+
+			</section><!-- /.top-area-->
+		</div>
+
+		<div class="container">
+			<div class="welcome-hero-txt">
+				<h2>Rapid <span style="color: skyblue;">Recruits</span> </h2>
+				<p>
+					Best Known for Consultency Services
+				</p>
+				<p>
+					Vision to Empowering clients to face & solve the most pressing & intricate people challenges faced
+					by them today while ensuring increased productivity by compliant ways of working.
+				</p>
+				<p>
+					Mission is to be the most trusted and sought after firm for end-to-end HR services providing our
+					clients a one-stop solution for all their HR needs. We constantly strives to bring in new
+					technologies & service offerings to the HR domain to be able to provide the best experience for its
+					clients and to ensure high level of satisfaction, efficiency as well as productivity.
+				</p>
+
 			</div>
 
-		</section><!--/.welcome-hero-->
-		<!--welcome-hero end -->
+		</div>
 
-		<!--list-topics start -->
-		<section id="list-topics" class="list-topics">
-			<div class="container list-container">
-				<div class="list-topics-content">
-					<ul>
-						<li>
-							<div class="single-list-topics-content">
-								<div class="single-list-topics-icon">
-									<i class="fa-solid fa-handshake fa-2xl"></i>
-								</div>
-								<h2><a href="#">Partner in Growth</a></h2>
-								<p></p>
-							</div>
-						</li>
-						<li>
-							<div class="single-list-topics-content">
-								<div class="single-list-topics-icon">
-									<i class="fa-solid fa-indian-rupee-sign fa-2xl"></i>
-								</div>
-								<h2><a href="#">Cost effective sollutions</a></h2>
-								<p></p>
-							</div>
-						</li>
-						<li>
-							<div class="single-list-topics-content">
-								<div class="single-list-topics-icon">
-									<i class="fa-regular fa-circle-check fa-2xl"></i>
-								</div>
-								<h2><a href="#">Commitment to quality</a></h2>
-								<p></p>
-							</div>
-						</li>
-						<li>
-							<div class="single-list-topics-content">
-								<div class="single-list-topics-icon">
-									<i class="fa-solid fa-forward fa-2xl"></i>
-								</div>
-								<h2><a href="#">On-time Deliveries</a></h2>
-								<p></p>
-							</div>
-						</li>
-						<li>
-							<div class="single-list-topics-content">
-								<div class="single-list-topics-icon">
-									<i class="fa-solid fa-reply-all fa-2xl"></i>
-								</div>
-								<h2><a href="#">Quick Response</a></h2>
-								<p></p>
-							</div>
-						</li>
-						<li>
-							<div class="single-list-topics-content">
-								<div class="single-list-topics-icon">
-									<i class="fa-solid fa-people-group fa-2xl"></i>
-								</div>
-								<h2><a href="#">Dependable Workforce</a></h2>
-								<p></p>
-							</div>
-						</li>
-						<li>
-							<div class="single-list-topics-content">
-								<div class="single-list-topics-icon">
-									<i class="fa-solid fa-lightbulb fa-2xl"></i>
-								</div>
-								<h2><a href="#">Innovative Model</a></h2>
-								<p></p>
-							</div>
-						</li>
-						<li>
-							<div class="single-list-topics-content">
-								<div class="single-list-topics-icon">
-									<i class="fa-solid fa-headset fa-2xl"></i>
-								</div>
-								<h2><a href="#">Quality Support</a></h2>
-								<p></p>
-							</div>
-						</li>
-					</ul>
-				</div>
-			</div><!--/.container-->
+	</section><!--/.welcome-hero-->
+	<!--welcome-hero end -->
 
-		</section><!--/.list-topics-->
-		<!--list-topics end-->
-
-		<!--about-->
-		<!-- statistics strat -->
-		<section id="statistics"  class="statistics">
-			<div class="container">
-				<div class="statistics-counter"> 
-					<div class="container about-container">
-						<div class="section-header">
-							<h2 style="color:#ffffff;">About Us</h2>
-						
-							<div class="about-content">
-								<!-- <img src="{{url_for('static', filename='images/img.png')}}" alt=""> -->
-								<p style="color: #ffffff;">Services We Offer.
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium aspernatur consequatur perferendis dolore, aperiam quas, fugiat temporibus facilis, facere beatae nostrum. Vel, maxime. Est, quaerat ut perspiciatis iusto at qui.
-
-								</p>
+	<!--list-topics start -->
+	<section id="list-topics" class="list-topics">
+		<div class="container list-container">
+			<div class="list-topics-content">
+				<ul>
+					<li>
+						<div class="single-list-topics-content">
+							<div class="single-list-topics-icon">
+								<i class="fa-solid fa-handshake fa-2xl"></i>
 							</div>
+							<h2><a href="#">Partner in Growth</a></h2>
+							<p></p>
 						</div>
-					</div>
-					
-				</div><!--/.statistics-counter-->	
-			</div><!--/.container-->
-
-		</section><!--/.counter-->
-		<!--about end-->
-
-		<!--works start -->
-		<section id="works" class="works">
-			<div class="container work-container">
-				<div class="section-header">
-					<h2>Bussiness Lines</h2>
-					<p>Services We Offer</p>
-				</div><!--/.section-header-->
-				<div class="works-content">
-					<div class="row">
-						<div class="col-md-4 col-sm-6">
-							<div class="single-how-works">
-								<div class="single-how-works-icon">
-									<!-- <i class="flaticon-lightbulb-idea"></i> -->
-									<i><img src="{{url_for('static', filename='img/001-user.png')}}" alt=""></i>
-								</div>
-								<h2><a href="#">Contract<span></span> Staffing</a></h2>
-								<p>
-									Rapid Recruits has partnered with its clients to create valuable assets of human resource to meet client goals. Rapid Recruits has a successful track record of
-working with start- ups, Conglomerates, MNCs. 
-								</p>
-								<!-- <button class="welcome-hero-btn how-work-btn" onclick="window.location.href='#'">
-									read more
-								</button> -->
+					</li>
+					<li>
+						<div class="single-list-topics-content">
+							<div class="single-list-topics-icon">
+								<i class="fa-solid fa-indian-rupee-sign fa-2xl"></i>
 							</div>
+							<h2><a href="#">Cost effective sollutions</a></h2>
+							<p></p>
 						</div>
-						<div class="col-md-4 col-sm-6">
-							<div class="single-how-works">
-								<div class="single-how-works-icon">
-									<!-- <i class="flaticon-networking"></i> -->
-									<i><img src="{{url_for('static', filename='img/002-teamwork.png')}}" alt=""></i>
-
-								</div>
-								<h2><a href="#">Talent <span>Acquisition</span></a></h2>
-								<p>
-									Rapid Recruits provides cost effective Talent Acquisition services based upon the client’s requirements, number of mandates and such other factors, thereby reducing Total Costs to the client. 
-								</p>
-								<!-- <button class="welcome-hero-btn how-work-btn" onclick="window.location.href='#'">
-									read more
-								</button> -->
+					</li>
+					<li>
+						<div class="single-list-topics-content">
+							<div class="single-list-topics-icon">
+								<i class="fa-regular fa-circle-check fa-2xl"></i>
 							</div>
+							<h2><a href="#">Commitment to quality</a></h2>
+							<p></p>
 						</div>
-						<div class="col-md-4 col-sm-6">
-							<div class="single-how-works">
-								<div class="single-how-works-icon">
-									<!-- <i class="flaticon-location-on-road"></i> -->
-									<i><img src="{{url_for('static', filename='img/003-hr.png')}}" alt=""></i>
-
-								</div>
-								<h2><a href="#">Apna<span></span> HR</a></h2>
-								<p>
-									Our advanced ATS & HRMS systems helps us streamline the whole Recruitment process delivering faster and better results to our clients. 
-								</p>
-								<!-- <button class="welcome-hero-btn how-work-btn" onclick="window.location.href='#'">
-									read more
-								</button> -->
+					</li>
+					<li>
+						<div class="single-list-topics-content">
+							<div class="single-list-topics-icon">
+								<i class="fa-solid fa-forward fa-2xl"></i>
 							</div>
+							<h2><a href="#">On-time Deliveries</a></h2>
+							<p></p>
 						</div>
-						<div class="col-md-4 col-sm-6">
-							<div class="single-how-works">
-								<div class="single-how-works-icon">
-									<i><img src="{{url_for('static', filename='img/hiring2.png')}}" alt=""></i>
-
-								</div>
-								<h2><a href="#">HR <span> Advisory</span> Services</a></h2>
-								<p>
-									Our recruitment specialists have client centric approach and are always specialized in specific industry fields to help find the most suitable and highly qualified candidates for you. 
-								</p>
-								<!-- <button class="welcome-hero-btn how-work-btn" onclick="window.location.href='#'">
-									read more
-								</button> -->
+					</li>
+					<li>
+						<div class="single-list-topics-content">
+							<div class="single-list-topics-icon">
+								<i class="fa-solid fa-reply-all fa-2xl"></i>
 							</div>
+							<h2><a href="#">Quick Response</a></h2>
+							<p></p>
+						</div>
+					</li>
+					<li>
+						<div class="single-list-topics-content">
+							<div class="single-list-topics-icon">
+								<i class="fa-solid fa-people-group fa-2xl"></i>
+							</div>
+							<h2><a href="#">Dependable Workforce</a></h2>
+							<p></p>
+						</div>
+					</li>
+					<li>
+						<div class="single-list-topics-content">
+							<div class="single-list-topics-icon">
+								<i class="fa-solid fa-lightbulb fa-2xl"></i>
+							</div>
+							<h2><a href="#">Innovative Model</a></h2>
+							<p></p>
+						</div>
+					</li>
+					<li>
+						<div class="single-list-topics-content">
+							<div class="single-list-topics-icon">
+								<i class="fa-solid fa-headset fa-2xl"></i>
+							</div>
+							<h2><a href="#">Quality Support</a></h2>
+							<p></p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div><!--/.container-->
+
+	</section><!--/.list-topics-->
+	<!--list-topics end-->
+
+	<!--about-->
+	<!-- statistics strat -->
+	<section id="statistics" class="statistics">
+		<div class="container">
+			<div class="statistics-counter">
+				<div class="container about-container">
+					<div class="section-header">
+						<h2 style="color:#ffffff;">About Us</h2>
+
+						<div class="about-content">
+							<!-- <img src="{{url_for('static', filename='images/img.png')}}" alt=""> -->
+							<p style="color: #ffffff;">Services We Offer.
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium aspernatur
+								consequatur perferendis dolore, aperiam quas, fugiat temporibus facilis, facere beatae
+								nostrum. Vel, maxime. Est, quaerat ut perspiciatis iusto at qui.
+
+							</p>
 						</div>
 					</div>
 				</div>
-			</div><!--/.container-->
-		
-		</section><!--/.works-->
-		<!--works end -->
 
-		<!--reviews start -->
-		<section id="reviews" class="reviews">
+			</div><!--/.statistics-counter-->
+		</div><!--/.container-->
+
+	</section><!--/.counter-->
+	<!--about end-->
+
+	<!--works start -->
+	<section id="works" class="works">
+		<div class="container work-container">
 			<div class="section-header">
-				<h2>Our Partners</h2>
-				<p>Who our clients</p>
+				<h2>Bussiness Lines</h2>
+				<p>Services We Offer</p>
 			</div><!--/.section-header-->
-			<div class="reviews-content">
-				<div class="testimonial-carousel">
-				    <div class="single-testimonial-box">
-						<div class="testimonial-description">
-							<div class="testimonial-info">
-								<div class="testimonial-img">
-									<img src="{{url_for('static', filename='images/clients/qtpvt.png')}}" alt="clients">
-								</div><!--/.testimonial-img-->
-								<div class="testimonial-person">
-									<h2>Quicksun Technologies</h2>
-									
-									
-								</div><!--/.testimonial-person-->
-							</div><!--/.testimonial-info-->
-							<div class="testimonial-comment">
-								<p>
-									QuickSun Technologies Private Limited is a Fintech / Financial Services Company, which focuses on empowering Migrant population & other Underserved sections.
-								</p>
-							</div><!--/.testimonial-comment-->
-						</div><!--/.testimonial-description-->
-					</div><!--/.single-testimonial-box-->
-				    <div class="single-testimonial-box">
-						<div class="testimonial-description">
-							<div class="testimonial-info">
-								<div class="testimonial-img">
-									<img src="{{url_for('static', filename='images/clients/jisnu.png')}}" alt="clients">
-								</div><!--/.testimonial-img-->
-								<div class="testimonial-person">
-									<h2>Jisnu Communications</h2>
-									
-									
-								</div><!--/.testimonial-person-->
-							</div><!--/.testimonial-info-->
-							<div class="testimonial-comment">
-								<p>
-									Jisnu Communications is a specialized engineering company committed to developing & manufacturing advanced strategic communication solutions for the Space & Defense sectors across Ground, Marine and Airborne platforms.
-								</p>
-							</div><!--/.testimonial-comment-->
-						</div><!--/.testimonial-description-->
-					</div><!--/.single-testimonial-box-->
-				    <div class="single-testimonial-box">
-						<div class="testimonial-description">
-							<div class="testimonial-info">
-								<div class="testimonial-img">
-									<img src="{{url_for('static', filename='images/clients/pcb.png')}}" alt="clients">
-								</div><!--/.testimonial-img-->
-								<div class="testimonial-person">
-									<h2>PCB Apps</h2>
-									
-									
-								</div><!--/.testimonial-person-->
-							</div><!--/.testimonial-info-->
-							<div class="testimonial-comment">
-								<p>
-									PCB Apps is a business application service provider delivering the hybrid cloud solutions drawing on industry best practices and deep technology expertise.
-								</p>
-							</div><!--/.testimonial-comment-->
-						</div><!--/.testimonial-description-->
-					</div><!--/.single-testimonial-box-->
-				    <div class="single-testimonial-box">
-						<div class="testimonial-description">
-							<div class="testimonial-info">
-								<div class="testimonial-img">
-									<img src="{{url_for('static', filename='images/clients/sm.png')}}" alt="clients">
-								</div><!--/.testimonial-img-->
-								<div class="testimonial-person">
-									<h2>Shreeja Milks</h2>
-									
-									
-								</div><!--/.testimonial-person-->
-							</div><!--/.testimonial-info-->
-							<div class="testimonial-comment">
-								<p>
-									The worlds largest only women owned best quality milk producer organization.
-								</p>
-							</div><!--/.testimonial-comment-->
-						</div><!--/.testimonial-description-->
-					</div><!--/.single-testimonial-box-->
-				    <div class="single-testimonial-box">
-						<div class="testimonial-description">
-							<div class="testimonial-info">
-								<div class="testimonial-img">
-									<img src="{{url_for('static', filename='images/clients/ml.png')}}" alt="clients">
-								</div><!--/.testimonial-img-->
-								<div class="testimonial-person">
-									<h2>Mudunuru Limited</h2>
-									<h4>london, UK</h4>
-									
-								</div><!--/.testimonial-person-->
-							</div><!--/.testimonial-info-->
-							<div class="testimonial-comment">
-								<p>
-									A pioneer in the application development of leading edge technologies, including face, finger and iris based biometrics recognition; IOT solutions etc.
-								</p>
-							</div><!--/.testimonial-comment-->
-						</div><!--/.testimonial-description-->
-					</div><!--/.single-testimonial-box-->
-				    <div class="single-testimonial-box">
-						<div class="testimonial-description">
-							<div class="testimonial-info">
-								<div class="testimonial-img">
-									<img src="{{url_for('static', filename='images/clients/ks.png')}}" alt="clients">
-								</div><!--/.testimonial-img-->
-								<div class="testimonial-person">
-									<h2>Keastone</h2>
-									
-									
-								</div><!--/.testimonial-person-->
-							</div><!--/.testimonial-info-->
-							<div class="testimonial-comment">
-								<p>
-									Keastone is a provider of software and services solutions. A digital experience that is contextually oriented to and driven by the content, topics, also providing the tools we need.
-								</p>
-							</div><!--/.testimonial-comment-->
-						</div><!--/.testimonial-description-->
-					</div><!--/.single-testimonial-box-->
-				    
-				
+			<div class="works-content">
+				<div class="row">
+					<div class="col-md-4 col-sm-6">
+						<div class="single-how-works">
+							<div class="single-how-works-icon">
+								<!-- <i class="flaticon-lightbulb-idea"></i> -->
+								<i><img src="{{url_for('static', filename='img/001-user.png')}}" alt=""></i>
+							</div>
+							<h2><a href="#">Contract<span></span> Staffing</a></h2>
+							<p>
+								Rapid Recruits has partnered with its clients to create valuable assets of human
+								resource to meet client goals. Rapid Recruits has a successful track record of
+								working with start- ups, Conglomerates, MNCs.
+							</p>
+							<!-- <button class="welcome-hero-btn how-work-btn" onclick="window.location.href='#'">
+									read more
+								</button> -->
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6">
+						<div class="single-how-works">
+							<div class="single-how-works-icon">
+								<!-- <i class="flaticon-networking"></i> -->
+								<i><img src="{{url_for('static', filename='img/002-teamwork.png')}}" alt=""></i>
+
+							</div>
+							<h2><a href="#">Talent <span>Acquisition</span></a></h2>
+							<p>
+								Rapid Recruits provides cost effective Talent Acquisition services based upon the
+								client’s requirements, number of mandates and such other factors, thereby reducing Total
+								Costs to the client.
+							</p>
+							<!-- <button class="welcome-hero-btn how-work-btn" onclick="window.location.href='#'">
+									read more
+								</button> -->
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6">
+						<div class="single-how-works">
+							<div class="single-how-works-icon">
+								<!-- <i class="flaticon-location-on-road"></i> -->
+								<i><img src="{{url_for('static', filename='img/003-hr.png')}}" alt=""></i>
+
+							</div>
+							<h2><a href="#">Apna<span></span> HR</a></h2>
+							<p>
+								Our advanced ATS & HRMS systems helps us streamline the whole Recruitment process
+								delivering faster and better results to our clients.
+							</p>
+							<!-- <button class="welcome-hero-btn how-work-btn" onclick="window.location.href='#'">
+									read more
+								</button> -->
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6">
+						<div class="single-how-works">
+							<div class="single-how-works-icon">
+								<i><img src="{{url_for('static', filename='img/hiring2.png')}}" alt=""></i>
+
+							</div>
+							<h2><a href="#">HR <span> Advisory</span> Services</a></h2>
+							<p>
+								Our recruitment specialists have client centric approach and are always specialized in
+								specific industry fields to help find the most suitable and highly qualified candidates
+								for you.
+							</p>
+							<!-- <button class="welcome-hero-btn how-work-btn" onclick="window.location.href='#'">
+									read more
+								</button> -->
+						</div>
+					</div>
 				</div>
 			</div>
+		</div><!--/.container-->
 
-		</section><!--/.reviews-->
-		<!--reviews end -->
+	</section><!--/.works-->
+	<!--works end -->
 
-		
+	<!--reviews start -->
+	<section id="reviews" class="reviews">
+		<div class="section-header">
+			<h2>Our Partners</h2>
+			<p>Who our clients</p>
+		</div><!--/.section-header-->
+		<div class="reviews-content">
+			<div class="testimonial-carousel">
+				<div class="single-testimonial-box">
+					<div class="testimonial-description">
+						<div class="testimonial-info">
+							<div class="testimonial-img">
+								<img src="{{url_for('static', filename='images/clients/qtpvt.png')}}" alt="clients">
+							</div><!--/.testimonial-img-->
+							<div class="testimonial-person">
+								<h2>Quicksun Technologies</h2>
 
-		<!--footer start-->
-		<footer id="footer"  class="footer">
-			<div class="container">
-				<div class="footer-menu">
-		           	<div class="row">
-			           	<div class="col-sm-3">
-			           		<div class="navbar-header">
-				                <a class="navbar-brand" href="index.html">Rapid<span>Recruits</span></a>
-								
-				            </div><!--/.navbar-header-->
-							
-			           	</div>
-			           	<!-- <div class="col-sm-9">
+
+							</div><!--/.testimonial-person-->
+						</div><!--/.testimonial-info-->
+						<div class="testimonial-comment">
+							<p>
+								QuickSun Technologies Private Limited is a Fintech / Financial Services Company, which
+								focuses on empowering Migrant population & other Underserved sections.
+							</p>
+						</div><!--/.testimonial-comment-->
+					</div><!--/.testimonial-description-->
+				</div><!--/.single-testimonial-box-->
+				<div class="single-testimonial-box">
+					<div class="testimonial-description">
+						<div class="testimonial-info">
+							<div class="testimonial-img">
+								<img src="{{url_for('static', filename='images/clients/jisnu.png')}}" alt="clients">
+							</div><!--/.testimonial-img-->
+							<div class="testimonial-person">
+								<h2>Jisnu Communications</h2>
+
+
+							</div><!--/.testimonial-person-->
+						</div><!--/.testimonial-info-->
+						<div class="testimonial-comment">
+							<p>
+								Jisnu Communications is a specialized engineering company committed to developing &
+								manufacturing advanced strategic communication solutions for the Space & Defense sectors
+								across Ground, Marine and Airborne platforms.
+							</p>
+						</div><!--/.testimonial-comment-->
+					</div><!--/.testimonial-description-->
+				</div><!--/.single-testimonial-box-->
+				<div class="single-testimonial-box">
+					<div class="testimonial-description">
+						<div class="testimonial-info">
+							<div class="testimonial-img">
+								<img src="{{url_for('static', filename='images/clients/pcb.png')}}" alt="clients">
+							</div><!--/.testimonial-img-->
+							<div class="testimonial-person">
+								<h2>PCB Apps</h2>
+
+
+							</div><!--/.testimonial-person-->
+						</div><!--/.testimonial-info-->
+						<div class="testimonial-comment">
+							<p>
+								PCB Apps is a business application service provider delivering the hybrid cloud
+								solutions drawing on industry best practices and deep technology expertise.
+							</p>
+						</div><!--/.testimonial-comment-->
+					</div><!--/.testimonial-description-->
+				</div><!--/.single-testimonial-box-->
+				<div class="single-testimonial-box">
+					<div class="testimonial-description">
+						<div class="testimonial-info">
+							<div class="testimonial-img">
+								<img src="{{url_for('static', filename='images/clients/sm.png')}}" alt="clients">
+							</div><!--/.testimonial-img-->
+							<div class="testimonial-person">
+								<h2>Shreeja Milks</h2>
+
+
+							</div><!--/.testimonial-person-->
+						</div><!--/.testimonial-info-->
+						<div class="testimonial-comment">
+							<p>
+								The worlds largest only women owned best quality milk producer organization.
+							</p>
+						</div><!--/.testimonial-comment-->
+					</div><!--/.testimonial-description-->
+				</div><!--/.single-testimonial-box-->
+				<div class="single-testimonial-box">
+					<div class="testimonial-description">
+						<div class="testimonial-info">
+							<div class="testimonial-img">
+								<img src="{{url_for('static', filename='images/clients/ml.png')}}" alt="clients">
+							</div><!--/.testimonial-img-->
+							<div class="testimonial-person">
+								<h2>Mudunuru Limited</h2>
+								<h4>london, UK</h4>
+
+							</div><!--/.testimonial-person-->
+						</div><!--/.testimonial-info-->
+						<div class="testimonial-comment">
+							<p>
+								A pioneer in the application development of leading edge technologies, including face,
+								finger and iris based biometrics recognition; IOT solutions etc.
+							</p>
+						</div><!--/.testimonial-comment-->
+					</div><!--/.testimonial-description-->
+				</div><!--/.single-testimonial-box-->
+				<div class="single-testimonial-box">
+					<div class="testimonial-description">
+						<div class="testimonial-info">
+							<div class="testimonial-img">
+								<img src="{{url_for('static', filename='images/clients/ks.png')}}" alt="clients">
+							</div><!--/.testimonial-img-->
+							<div class="testimonial-person">
+								<h2>Keastone</h2>
+
+
+							</div><!--/.testimonial-person-->
+						</div><!--/.testimonial-info-->
+						<div class="testimonial-comment">
+							<p>
+								Keastone is a provider of software and services solutions. A digital experience that is
+								contextually oriented to and driven by the content, topics, also providing the tools we
+								need.
+							</p>
+						</div><!--/.testimonial-comment-->
+					</div><!--/.testimonial-description-->
+				</div><!--/.single-testimonial-box-->
+
+
+			</div>
+		</div>
+
+	</section><!--/.reviews-->
+	<!--reviews end -->
+
+
+
+	<!--footer start-->
+	<footer id="footer" class="footer">
+		<div class="container">
+			<div class="footer-menu">
+				<div class="row">
+					<div class="col-sm-3">
+						<div class="navbar-header">
+							<a class="navbar-brand" href="index.html">Rapid<span>Recruits</span></a>
+
+						</div><!--/.navbar-header-->
+
+					</div>
+					<!-- <div class="col-sm-9">
 			           		<ul class="footer-menu-item">
 			                    <li class="scroll"><a href="#works">how it works</a></li>
 			                    <li class="scroll"><a href="#works">Work</a></li>
@@ -471,79 +499,80 @@ working with start- ups, Conglomerates, MNCs.
 			                    <li class="scroll"><a href="#footer">Contact</a></li>
 			                </ul>
 			           	</div> -->
-		           </div>
 				</div>
-				<div class="hm-footer-copyright">
-					<div class="row">
-						<div class="col-sm-5">
-							<p>
-								&copy;copyright. Rapid Recruits
-							</p><!--/p-->
-							<p>
-								Address:
-							</p><!--/p-->
-							<p>
-								#door No., Street,
-							</p><!--/p-->
-							<p>
-								Town, district,
-							</p><!--/p-->
-							<p>
-								State. Pin.
-							</p><!--/p-->
-						</div>
-						<div class="col-sm-7">
-							<div class="footer-social">
-								<span><i class="fa fa-phone"> +1  #</i></span>
-								<a href="#"><i class="fa fa-facebook"></i></a>	
-								<a href="#"><i class="fa fa-twitter"></i></a>
-								<a href="#"><i class="fa fa-linkedin"></i></a>
-								<a href="#"><i class="fa fa-google-plus"></i></a>
-							</div>
+			</div>
+			<div class="hm-footer-copyright">
+				<div class="row">
+					<div class="col-sm-5">
+						<p>
+							&copy;copyright. Rapid Recruits
+						</p><!--/p-->
+						<p>
+							Address:
+						</p><!--/p-->
+						<p>
+							#door No., Street,
+						</p><!--/p-->
+						<p>
+							Town, district,
+						</p><!--/p-->
+						<p>
+							State. Pin.
+						</p><!--/p-->
+					</div>
+					<div class="col-sm-7">
+						<div class="footer-social">
+							<span><i class="fa fa-phone"> +1 #</i></span>
+							<a href="#"><i class="fa fa-facebook"></i></a>
+							<a href="#"><i class="fa fa-twitter"></i></a>
+							<a href="#"><i class="fa fa-linkedin"></i></a>
+							<a href="#"><i class="fa fa-google-plus"></i></a>
 						</div>
 					</div>
-					
-				</div><!--/.hm-footer-copyright-->
-			</div><!--/.container-->
-
-			<div id="scroll-Top">
-				<div class="return-to-top">
-					<i class="fa fa-angle-up " id="scroll-top" data-toggle="tooltip" data-placement="top" title="" data-original-title="Back to Top" aria-hidden="true"></i>
 				</div>
-				
-			</div><!--/.scroll-Top-->
-			
-        </footer><!--/.footer-->
-		<!--footer end-->
-		
-		<!-- Include all js compiled plugins (below), or include individual files as needed -->
 
-		<script src="{{url_for('static', filename='js/jquery.js')}}"></script>
-        
-        <!--modernizr.min.js-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-		
-		<!--bootstrap.min.js-->
-        <script src="{{url_for('static', filename='js/bootstrap.min.js')}}"></script>
-		
-		<!-- bootsnav js -->
-		<script src="{{url_for('static', filename='js/bootsnav.js')}}"></script>
+			</div><!--/.hm-footer-copyright-->
+		</div><!--/.container-->
 
-        <!--feather.min.js-->
-        <script  src="{{url_for('static', filename='js/feather.min.js')}}"></script>
+		<div id="scroll-Top">
+			<div class="return-to-top">
+				<i class="fa fa-angle-up " id="scroll-top" data-toggle="tooltip" data-placement="top" title=""
+					data-original-title="Back to Top" aria-hidden="true"></i>
+			</div>
 
-        <!-- counter js -->
-		<script src="{{url_for('static', filename='js/jquery.counterup.min.js')}}"></script>
-		<script src="{{url_for('static', filename='js/waypoints.min.js')}}"></script>
+		</div><!--/.scroll-Top-->
 
-        <!--slick.min.js-->
-        <script src="{{url_for('static', filename='js/slick.min.js')}}"></script>
+	</footer><!--/.footer-->
+	<!--footer end-->
 
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-		     
-        <!--Custom JS-->
-        <script src="{{url_for('static', filename='js/custom.js')}}"></script>
-        
-    </body>
-	
+	<!-- Include all js compiled plugins (below), or include individual files as needed -->
+
+	<script src="{{url_for('static', filename='js/jquery.js')}}"></script>
+
+	<!--modernizr.min.js-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+
+	<!--bootstrap.min.js-->
+	<script src="{{url_for('static', filename='js/bootstrap.min.js')}}"></script>
+
+	<!-- bootsnav js -->
+	<script src="{{url_for('static', filename='js/bootsnav.js')}}"></script>
+
+	<!--feather.min.js-->
+	<script src="{{url_for('static', filename='js/feather.min.js')}}"></script>
+
+	<!-- counter js -->
+	<script src="{{url_for('static', filename='js/jquery.counterup.min.js')}}"></script>
+	<script src="{{url_for('static', filename='js/waypoints.min.js')}}"></script>
+
+	<!--slick.min.js-->
+	<script src="{{url_for('static', filename='js/slick.min.js')}}"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+	<!--Custom JS-->
+	<script src="{{url_for('static', filename='js/custom.js')}}"></script>
+
+</body>
+
 </html>
