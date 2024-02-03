@@ -85,6 +85,10 @@ h6,
     transition: .5s;
 }
 
+.sticky-top .nav-link:active {
+    color: rgba(255, 255, 255, 1);
+}
+
 .navbar {
     padding: 11px 0 !important;
     height: 75px;
@@ -113,8 +117,8 @@ h6,
 
 .navbar img {
     width: 150px;
-    padding-top: 20px;
-    filter:drop-shadow(8px 8px 2px #4b56be);
+    padding-top: 50px;
+    /* filter:drop-shadow(8px 8px 2px #4b56be); */
 }
 
 @media (max-width: 991.98px) {
@@ -238,7 +242,7 @@ h6,
     height: 100%;
     top: 0;
     left: 0;
-    background: url(../img/bg-about-img.png) top left no-repeat;
+    /* background: url(../img/bg-about-img.png) top left no-repeat; */
     background-size: contain;
 }
 
