@@ -60,6 +60,29 @@
             '<i class="bi bi-chevron-right"></i>'
         ]
     });
+
+    //Navbar
+    document.querySelectorAll(".nav-item").forEach((ele) =>
+    ele.addEventListener("click", function (event) {
+    // event.preventDefault();
+    document
+        .querySelectorAll(".nav-item")
+        .forEach((ele) => ele.classList.remove("active"));
+    this.classList.add("active")
+    })
+    );
     
 })(jQuery);
+
+
+// //Navbar
+// document.querySelectorAll(".nav-item").forEach((ele) =>
+//   ele.addEventListener("click", function (event) {
+//     event.preventDefault();
+//     document
+//       .querySelectorAll(".nav-item")
+//       .forEach((ele) => ele.classList.remove("active"));
+//     this.classList.add("active")
+//   })
+// );
 
